@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+html, body{height: 100%;}
+body{
+    display: flex;
+    background-color: #131922;
+    transition: 0.2s;
+}
+aside{
+    width: 400px;
+    height: 100%;
+    background-color: #10131b;
+}
+aside > header{
+    width: 100%;
+    background-color: #0c0e14;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+.olho{
+    cursor: pointer;
+    transition: 1s;
+}
+.black{
+    color: #11141d !important;
+    background-color: white !important;
+}
+.cor{
+    background-color: #192230;
+    color: rgb(0, 0, 0);
+}
+.Anotaçoes{
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0c11;
+}
+.Anotaçoes > img{
+    background-color: black;
+    border-radius: 50%;
+}
+.suas-conversas{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 8px;
+    width: 50%;
+    border-radius: 10px;
+    height: 25px;
+    background-color: #0a0c11;
+}
+main{
+    width: 74vw;
+}
+main > header{
+    width: 100%;
+    height: 10%;
+    background-color: #0e1118;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+.head{
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+    gap: 20px;
+}
+.head > img{
+    background-color: #0a0c11;
+    border-radius: 50%;
+}
+.menu{
+    font-size: 30px;
+    cursor: pointer;
+}
+.menu-div > button{
+    background-color: unset;
+    border: none;
+}
+.click{
+    height: 0px;
+    width: 220px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: .5s;
+    border-radius: 10px;
+    overflow-y: hidden;
+    z-index: 200;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 20px;
+}
+.click > a{
+    text-decoration: none;
+    color: #919191;
+    padding: 2%;
+    margin-top: 2%;
+    transition: 0.5s;
+}
+.click > a:hover{
+    width: 100%;
+    background-color: #227928;
+}
+.open{
+    height: 300px;
+}
+.textArea{
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+}
+.textArea::-webkit-scrollbar{background-color: #0a0c11;}
+.textArea::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid #0a0c11;
+}
+.textArea > div{
+    position: absolute;
+    right: 30px;
+    background-color: #227928;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.check{
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    padding-right: 2%;
+}
+.container{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    background-color: #0e1118;
+}
+.container > input{
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #131922;
+    border: 1px solid black;
+    color: #727272;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.container > .enviar{
+    width: 20%;
+    height: 40px;
+    background-color: #227928;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.container > .figurinha{
+    width: 5%;
+    height: 40px;
+    background-color: #131922;
+    border: 1px solid black;
+    cursor: pointer;
+}
